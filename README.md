@@ -15,13 +15,13 @@ print "9. prior heart attacks"
 print "10. cogenital heart disease"
 information = raw_input()
 if information == 'arrhythmia':
-    print "We will monitor you heart rate, in case of emergency, we will contact the paramedics."
+    print "We will monitor you heart rate, in case of emergency, we will contact the paramedics so that you can get imediate help."
 elif information == 'high blood pressure':
-    print "We will remind you what to avoid and any habits you fall victim to."
+    print "We will remind you what to avoid and any habits you fall victim to. It is highly advised that you moniter your conditions closly"
 elif information == 'frequent cardiac arrest':
-    print "We will constantly make sure your heart is stable."
+    print "We will constantly make sure your heart is stable. In the event of a cardiac arrest, you will semd your location to an 911 operator so that you can get immediate medical attention"
 elif information == 'heart murmurs':
-    print "We recommend that you visit your doctor often"
+    print "We recommend that you visit your doctor and moneter your condion yearly if possible"
 elif information == 'coronary artery disease':
     print "We recommend that you try to lower your blood pressure to prevent any heart attacks." 
 elif information == 'congestive heart failure':
